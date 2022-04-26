@@ -1,0 +1,24 @@
+.input {
+    margin-right: 10px;
+    color: gold;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid gold;
+}
+
+.button {
+    margin-right: 10px;
+    background-color: gold;
+    border-radius: 5px;
+}
+
+.error {
+    color: gold;
+}
+
+.errorLength {
+    color: gold;
+}
+
+.totalUsers {
+    color: gold;
+}
