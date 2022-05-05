@@ -1,13 +1,13 @@
 import React from 'react'
-import {} from "react-router-dom";
 
-function Header() {
+function Junior() {
     return (
         <div>
 
+            {/*<HW6/>*/}
 
         </div>
     )
 }
 
-export default Header
+export default Junior
