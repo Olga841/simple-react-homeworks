@@ -15,13 +15,9 @@ const SuperButton: React.FC<SuperButtonPropsType> = (
     }
 ) => {
     const finalClassName = `${s.button} ${red ? s.red : s.default} ${className}`
-    const addAnimation = () => {
-
-    }
 
     return (
         <button
-            // onClick={addAnimation}
             className={finalClassName}
             {...restProps} // отдаём кнопке остальные пропсы если они есть (children там внутри)
         />
