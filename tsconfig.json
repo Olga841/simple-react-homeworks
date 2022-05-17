@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "types": ["react/next", "react-dom/next", "jest"],
+    "types": ["react/next", "react-dom/next", "node", "jest", "@testing-library/jest-dom"],
     "target": "es5",
     "lib": [
       "dom",
