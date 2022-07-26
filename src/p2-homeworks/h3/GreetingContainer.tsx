@@ -17,7 +17,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
     const [error, setError] = useState<string>('') // need to fix any
 
     const setNameCallback = (event: ChangeEvent<HTMLInputElement>) => { // need to fix any
-        setName(event.currentTarget.value) // need to fix
+        setName(event.currentTarget.value.trim()) // need to fix
     }
     const addUser = (name: string) => {
         if (name === '') {
