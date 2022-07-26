@@ -22,22 +22,20 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
     }
 
 
-    const mappedOptions: any[] = options ? options.map((o, i) => ( // map options with key
-        <FormControl style={{margin: 10, color: "#BDAE82"}}>
-            <RadioGroup key={name + '-' + i}
-                name={name}
-                value={o}
-                onChange={onChangeCallback}
-            >
-                <FormControlLabel  checked={value === o} control={<Radio color="success"/>} label={o} />
-            </RadioGroup>
-        </FormControl>
+    /*const mappedOptions: any[] = options ? options.map((o, i) => ( // map options with key
+        <option className={s.option} key={o + '-' + i} value={o}>{o}</option>
     )) : []
 
+    const finalSelectClassName = s.select + (
+        className
+            ? ' ' + className
+            : ''
+    )*/
+
     return (
-        <>
-            {mappedOptions}
-        </>
+        <select>
+
+        </select>
     )
 }
 

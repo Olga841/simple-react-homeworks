@@ -1,6 +1,6 @@
 .active {
-    display: inline-block;
-    position: relative;
+    display: flex;
+
     width: 300px;
     padding: 0px 0px 20px 10px;
     transform: translateX(0%);
@@ -31,6 +31,24 @@
     padding: 0px 0px 20px 10px;
     transform: translateX(-17%);
     transition: all 0.3s ease 0.3s;
+}
+
+@media (min-width: 1600px) {
+    .header {
+        transform: translateX(-15%);
+    }
+}
+
+@media (min-width: 1800px) {
+    .header {
+        transform: translateX(-14%);
+    }
+}
+
+@media (min-width: 2000px) {
+    .header {
+        transform: translateX(-12%);
+    }
 }
 
 .error_page {
