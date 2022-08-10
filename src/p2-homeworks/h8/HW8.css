@@ -1,0 +1,16 @@
+.container {
+    width: 250px;
+    display: flex;
+}
+
+.name {
+    display: inline-block;
+    width: 230px;
+    margin: 0 10px;
+    color: #bdae82;
+}
+
+.age {
+    display: inline-block;
+    color: #bdae82;
+}
