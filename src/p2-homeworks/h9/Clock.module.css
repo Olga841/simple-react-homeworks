@@ -1,0 +1,11 @@
+.container {
+    width: 200px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.date {
+    width: 200px;
+    height: 20px;
+    margin: 10px;
+    color: #bdae82;
+}
