@@ -49,18 +49,21 @@ function Clock() {
 
     return (
         <div>
-            <div className={s.time}
+            <div className={s.date}
                 onMouseEnter={onMouseEnter}
                 onMouseLeave={onMouseLeave}
             >
                 {stringTime}
             </div>
+            <div className={s.container}>
+                {show && (
+                    <div className={s.date}>
+                        {stringDate}
+                    </div>
+                )}
+            </div>
 
-            {show && (
-                <div className={s.date}>
-                    {stringDate}
-                </div>
-            )}
+
 
             <SuperButton onClick={start}>start</SuperButton>
             <SuperButton onClick={stop}>stop</SuperButton>
